@@ -26,7 +26,7 @@ Feel free to change the messaging, add initial price etc. - make the site your o
     1. Replace %MYTELEGRAM% -> with your Telegram user **or** remove this section if you don't have/want one
     1. Replace %MYTWITTER% -> with your Twitter user **or** remove this section if you don't have/want one
 1. You can also remove the script section at the bottom of the page, if you handled the Twitter/Telegram sections manually 
-1. Copy the `index.html` and the `assets` folder to a temp folder on your machine. We do this to avoid uploading the other files in this repo (like this README) to IPFS as they're not needed. In the next step we'll upload this folder
+1. Copy the `index.html` and the `static` folder to a temp folder on your machine. We do this to avoid uploading the other files in this repo (like this README) to IPFS as they're not needed. In the next step we'll upload this folder
 
 #### 2.2 Build the site automatically (advanced)
 
@@ -34,7 +34,7 @@ Feel free to change the messaging, add initial price etc. - make the site your o
 1. Create a `.env` file at the root of the directory. It expects 4 variables. See the file `.env.sample`.  
 The `%MYTWITTER%` and `%MYTELEGRAM%` variables can be left empty, but the domain name and email are manadatory.
 1. Run the `build` command: `yarn build` or `npm run build`.  
-This will replace all the strings in the HTML and create a `build` folder with all the assets. In the next step we'll upload this folder
+This will replace all the strings in the HTML and create a `build` folder with all the static. In the next step we'll upload this folder
 
 ## 3. Uploading the files
   

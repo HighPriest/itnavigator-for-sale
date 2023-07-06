@@ -1,0 +1,16 @@
+{ 
+    "config" : {
+        "server" : {
+            "proto": "http", 
+            "host": "amun.pl", 
+            "port": "8000"
+        }, 
+        "websocket": {
+            "proto": "ws",
+            "host": "amun.pl", 
+            "port": "8000"
+        }
+    }, 
+    "greetings": "Hello there, thanks for reaching out, i'll answer you asap"
+}
+
